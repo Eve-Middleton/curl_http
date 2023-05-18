@@ -1,0 +1,10 @@
+[init_curl]
+Class="Function"
+Prototype="void init_curl();"
+SourceLocation="\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\TLGB_curl.c:132:6"
+
+[release_curl]
+Class="Function"
+Prototype="void release_curl();"
+SourceLocation="\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\TLGB_curl.c:750:6"
+

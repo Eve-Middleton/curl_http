@@ -12,10 +12,10 @@ int main(int argc, char* argv[]) {
 
 		//发出请求
 		res = curl_easy_perform(curl);
-		//if (res != CURLE_OK) {
-		//	//输出可能是乱码，因为没配置UTF-8
-		//	fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
-		//}
+		if (res != CURLE_OK) {
+			//输出可能是乱码，因为没配置UTF-8
+			fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(res));
+		}
 
 		//清理工作
 		curl_easy_cleanup(curl);

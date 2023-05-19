@@ -1,4 +1,4 @@
-main.obj
+curl.obj
 TLGB_curl.obj
 cvi.lib
 cvistart.lib

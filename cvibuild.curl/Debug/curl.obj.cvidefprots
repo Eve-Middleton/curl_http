@@ -1,0 +1,15 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\dell\Desktop\curl_wrapper\curl.c:29:5"
+
+[btnExit]
+Class="Function"
+Prototype="int btnExit(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\dell\Desktop\curl_wrapper\curl.c:49:17"
+
+[sendHttp]
+Class="Function"
+Prototype="int sendHttp(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\dell\Desktop\curl_wrapper\curl.c:93:17"
+

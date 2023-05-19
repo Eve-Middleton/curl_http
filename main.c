@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
 		struct string s;
 		init_string(&s);
 		
-		TLGB_curl_easy_setopt(curl, CURLOPT_URL, "http://quan.suning.com/getSysTime.do");
+		TLGB_curl_easy_setopt(curl, CURLOPT_URL, "https://www.baidu.com");//http://quan.suning.com/getSysTime.do
 		//TLGB_curl_easy_setopt(curl, CURLOPT_TIMEOUT_MS, 10000L);
 		TLGB_curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L); // if redirected, tell libcurl to follow redirection
 		//TLGB_curl_easy_setopt(curl, CURLOPT_DEFAULT_PROTOCOL, "https");

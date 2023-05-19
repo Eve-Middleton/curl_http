@@ -1,49 +1,49 @@
 CCFLAGS = -g ;
-HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\instr"
+HDRS = 	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\instr"
 	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
 	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
 	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
 	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\include"
 	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
 	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
 	"C:\\ProgramData\\National Instruments\\CVI\\include"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
-	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"e:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
 	"c:\\Program Files\\IVI Foundation\\IVI\\Include"
 	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
 	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
-	"c:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"e:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
 	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
 	;
 include Jamfile_instr ;
-LOCATE on "main.c" = "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper" ;
-LOCATE on "TLGB_curl.c" = "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper" ;
-LOCATE on "TLGB_curl.h" = "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper" ;
-Object "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\main.obj" : "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\main.c" ;
-FILENUM on "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\main.obj" = 1 ;
-DEFPROTS on "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\main.obj" = "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\main.obj.cvidefprots" ;
-OUTFILE on "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\main.obj" = "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\main.obj.out" ;
-PrjObjects += "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\main.obj" ;
-Object "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" : "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\TLGB_curl.c" ;
-FILENUM on "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" = 2 ;
-DEFPROTS on "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" = "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj.cvidefprots" ;
-OUTFILE on "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" = "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj.out" ;
-PrjObjects += "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" ;
-Object "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\resources.res" : "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\resources.in.rc" ;
-Depends "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\resources.res" : "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\manifest.xml" ;
-MainFromObjects "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" : $(PrjObjects) $(InstrObjects) ;
-Depends "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" : "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\link_options.txt" ;
-Depends "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" : "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\resources.res" ;
-Depends all : "\\\\192.168.0.31\\ufftec2\\2021\\IRCA\\22127300 BANCO PROVA TENUTA BOILER\\PC\\cURL\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" ;
+LOCATE on "curl.c" = "c:\\Users\\dell\\Desktop\\curl_wrapper" ;
+LOCATE on "TLGB_curl.c" = "c:\\Users\\dell\\Desktop\\curl_wrapper" ;
+LOCATE on "TLGB_curl.h" = "c:\\Users\\dell\\Desktop\\curl_wrapper" ;
+Object "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.obj" : "c:\\Users\\dell\\Desktop\\curl_wrapper\\curl.c" ;
+FILENUM on "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.obj" = 1 ;
+DEFPROTS on "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.obj" = "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.obj" = "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.obj.out" ;
+PrjObjects += "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.obj" ;
+Object "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" : "c:\\Users\\dell\\Desktop\\curl_wrapper\\TLGB_curl.c" ;
+FILENUM on "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" = 2 ;
+DEFPROTS on "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" = "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" = "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj.out" ;
+PrjObjects += "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\TLGB_curl.obj" ;
+Object "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\resources.res" : "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\resources.res" : "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" : "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" : "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\dell\\Desktop\\curl_wrapper\\cvibuild.curl\\Debug\\curl.exe" ;

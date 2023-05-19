@@ -1,41 +1,41 @@
 -nologo
--out:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\curl.exe
+-out:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\curl.exe
 -arch:x86
 -timestamp
 -debug:3
--project:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\curl.prj
--res:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\resources.res
+-project:c:\Users\dell\Desktop\curl_wrapper\curl.prj
+-res:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\resources.res
 -entry:_CVIWinMainStartupCodeForDebugging@0
 -base:0x400000
--linked:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\linkersummary.txt
--dlldeps:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\dlldependencies.txt
--licensing:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\linkerlicensing.txt
--browsedeps:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\moduledependencies.txt
+-linked:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\linkersummary.txt
+-dlldeps:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\dlldependencies.txt
+-licensing:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\linkerlicensing.txt
+-browsedeps:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\moduledependencies.txt
 -stackreserve:1048576
 -stackcommit:4096
--in:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\main.obj
--in:\\192.168.0.31\ufftec2\2021\IRCA\22127300 BANCO PROVA TENUTA BOILER\PC\cURL\curl_wrapper\cvibuild.curl\Debug\TLGB_curl.obj
--more:c:\program files (x86)\national instruments\cvi2020\bin\msvc\cvistart.lib
--more:c:\program files (x86)\national instruments\cvi2020\bin\msvc\cvi.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\advanlys.lib
+-in:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\curl.obj
+-in:c:\Users\dell\Desktop\curl_wrapper\cvibuild.curl\Debug\TLGB_curl.obj
+-more:e:\program files (x86)\national instruments\cvi2020\bin\msvc\cvistart.lib
+-more:e:\program files (x86)\national instruments\cvi2020\bin\msvc\cvi.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\advanlys.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\bufferoverflowu.lib
 -more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cviauto.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvidotnet.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetstreams.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetv.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvintwrk.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvitdms.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cviauto.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvidotnet.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetstreams.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvinetv.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvintwrk.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\cvitdms.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\gpib.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\gpib.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
 -more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\NIDAQmx.lib
 -more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\nisyscfg.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\nivxi.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\omp.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\nivxi.lib
+-more:e:\Program Files (x86)\National Instruments\CVI2020\bin\msvc\omp.lib
 -more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\pid.lib
--more:c:\Program Files (x86)\National Instruments\CVI2020\toolslib\toolbox\msvc\toolbox.obj
+-more:e:\Program Files (x86)\National Instruments\CVI2020\toolslib\toolbox\msvc\toolbox.obj
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
 -more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
 -more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
